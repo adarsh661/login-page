@@ -1,14 +1,20 @@
  
-  /* Add a hover effect for buttons */
+  .loginbox{
+ 
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to bottom, #f9dbe9 0%, #f7067e 100%)
+    }
   button:hover {
     opacity: 0.8;
   }
-  
- 
-  
-  /* Center the avatar image inside this container */
+
   .imgcontainer {
-    text-align: center;
     margin: 24px 0 12px 0;
   }
  #box1{
@@ -27,31 +33,45 @@
   }
     
    
-body{text-align: center;
-    background-image:linear-gradient(to bottom, #ffffff 0%, #ff99cc 100%);
+body{ 
+ text-align: center;
+    background-image:linear-gradient(to bottom, #ffffff 0%, #e265a4 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+   
 } 
 
-.loginbox{
-text-align: center;
-width: 400px;
-height: 600px;
-border-radius: 10px;
-position: absolute;
-top: 310px;
-right:300px;
-transform: translate(-50%,-50%);
-background-image:linear-gradient(to bottom, #ffffff 0%, #ff99cc 100%);
 
-}
 
 .check{font-size: small;
   color: blue;
 
 }
+ 
+button {text-align: center;
+  background-color: #ebf3f0;
+  color: rgb(14, 9, 9);
+  padding: 10px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
   
+  
+}
  
  
   
